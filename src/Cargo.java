@@ -47,10 +47,33 @@ public class Cargo extends Helpers {
     public String showOrders() {
         String s = "";
 
-        for(int i = 0; i < this.orders.size(); i++) {
+        for (int i = 0; i < this.orders.size(); i++) {
             s += (this.orders.get(i) + "\r");
             s += ("-------------------------");
         }
         return s;
+    }
+
+    public double avarageDistance() {
+        int sum = 0;
+        for (int i = 0; i < this.orders.size(); i++) {
+            sum += this.orders.get(i).distance(this);
+        }
+        return sum / this.orders.size();
+    }
+
+    public double longestDistance() {
+        Order o = this.orders.get(0);
+        int orderIndex = 0;
+
+        for (int y = 0; y < this.orders.size(); y++) {
+
+            if (o.distance(this) <= this.orders.get(y).distance(this)) {
+                o = orders.get(y);
+                orderIndex = y;
+            }
+        }
+
+        return this.orders.get(orderIndex).distance(this);
     }
 }

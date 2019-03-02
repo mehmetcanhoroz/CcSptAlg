@@ -13,7 +13,8 @@ public abstract class Helpers {
 			dist = dist * 60 * 1.1515;
 			dist = dist * 1.609344;
 
-			return Math.round(dist);
+			//return Math.round(dist);
+			return (dist);
 		}
 	}
 
