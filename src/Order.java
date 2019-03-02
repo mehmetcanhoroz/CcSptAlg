@@ -46,4 +46,10 @@ public class Order extends Helpers {
 			this.cargoDistances.add(new CargoDistance(c, this.distance(c)));
 		});
 	}
+
+	@Override
+	public String toString() {
+		String s = "Order ID : " + this.id + "\r\n";
+		return s;
+	}
 }
