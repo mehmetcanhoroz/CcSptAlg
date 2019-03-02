@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65b51c7e-b0ff-4d3b-b7fe-de1f0ea90a03" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CcSptAlg/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CcSptAlg/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CcSptAlg/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CcSptAlg/Order.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Order.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,8 +22,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Cargo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
-              <caret line="77" column="5" lean-forward="true" selection-start-line="64" selection-start-column="4" selection-end-line="77" selection-end-column="5" />
+            <state relative-caret-position="1034">
+              <caret line="77" column="5" selection-start-line="64" selection-start-column="4" selection-end-line="77" selection-end-column="5" />
               <folding>
                 <element signature="e#690#691#0" expanded="true" />
                 <element signature="e#752#753#0" expanded="true" />
@@ -33,8 +35,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="228" column="109" selection-start-line="228" selection-start-column="109" selection-end-line="228" selection-end-column="109" />
+            <state relative-caret-position="17">
+              <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
               <folding>
                 <element signature="method#feedCargoList#0;class#Main#0" />
                 <element signature="method#promiseMinOrdersToCargos#0;class#Main#0" />
@@ -49,8 +51,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Order.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1232">
-              <caret line="75" column="1" lean-forward="true" selection-start-line="75" selection-start-column="1" selection-end-line="75" selection-end-column="1" />
+            <state relative-caret-position="34">
+              <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
               <folding>
                 <element signature="e#467#468#0" expanded="true" />
                 <element signature="e#529#530#0" expanded="true" />
@@ -72,7 +74,7 @@
         <entry file="file://$PROJECT_DIR$/src/orders.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="524">
-              <caret line="52" column="35" lean-forward="true" selection-start-line="52" selection-start-column="35" selection-end-line="53" selection-end-column="35" />
+              <caret line="52" column="35" selection-start-line="52" selection-start-column="35" selection-end-line="53" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -81,7 +83,7 @@
         <entry file="file://$PROJECT_DIR$/src/cargos.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" column="34" lean-forward="true" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+              <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -89,8 +91,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Helpers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -120,11 +122,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Helpers.java" />
         <option value="$PROJECT_DIR$/src/Cargo.java" />
-        <option value="$PROJECT_DIR$/src/Order.java" />
         <option value="$PROJECT_DIR$/src/cargos.txt" />
         <option value="$PROJECT_DIR$/src/orders.txt" />
+        <option value="$PROJECT_DIR$/src/Helpers.java" />
+        <option value="$PROJECT_DIR$/src/Order.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
       </list>
     </option>
@@ -217,12 +219,12 @@
       <option name="presentableId" value="Default" />
       <updated>1551551422788</updated>
       <workItem from="1551551424732" duration="899000" />
-      <workItem from="1551554114389" duration="12670000" />
+      <workItem from="1551554114389" duration="14521000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13569000" />
+    <option name="totallyTimeSpent" value="15420000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2062" height="1126" extended-state="6" />
@@ -271,10 +273,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Helpers.java">
+    <entry file="file://$PROJECT_DIR$/src/cargos.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+        <state relative-caret-position="34">
+          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/orders.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="524">
+          <caret line="52" column="35" selection-start-line="52" selection-start-column="35" selection-end-line="53" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -285,10 +294,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Helpers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Cargo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="77" column="5" lean-forward="true" selection-start-line="64" selection-start-column="4" selection-end-line="77" selection-end-column="5" />
+        <state relative-caret-position="1034">
+          <caret line="77" column="5" selection-start-line="64" selection-start-column="4" selection-end-line="77" selection-end-column="5" />
           <folding>
             <element signature="e#690#691#0" expanded="true" />
             <element signature="e#752#753#0" expanded="true" />
@@ -296,10 +312,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="141" column="57" selection-start-line="141" selection-start-column="57" selection-end-line="141" selection-end-column="57" />
+          <folding>
+            <element signature="e#5697#5698#0" expanded="true" />
+            <element signature="e#5728#5729#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Order.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1232">
-          <caret line="75" column="1" lean-forward="true" selection-start-line="75" selection-start-column="1" selection-end-line="75" selection-end-column="1" />
+        <state relative-caret-position="34">
+          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
           <folding>
             <element signature="e#467#468#0" expanded="true" />
             <element signature="e#529#530#0" expanded="true" />
@@ -307,24 +334,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cargos.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="34" lean-forward="true" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/orders.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="52" column="35" lean-forward="true" selection-start-line="52" selection-start-column="35" selection-end-line="53" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="228" column="109" selection-start-line="228" selection-start-column="109" selection-end-line="228" selection-end-column="109" />
+        <state relative-caret-position="17">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
           <folding>
             <element signature="method#feedCargoList#0;class#Main#0" />
             <element signature="method#promiseMinOrdersToCargos#0;class#Main#0" />
