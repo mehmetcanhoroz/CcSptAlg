@@ -46,10 +46,31 @@ public class Order extends Helpers {
         });
     }
 
+    public Cargo closestCargo() {
+        int cargoIndex = 0;
+
+        for (int y = 0; y < this.cargos.size(); y++) {
+
+            if (this.cargos.get(cargoIndex).distance(this) >= this.cargos.get(y).distance(this)) {
+                cargoIndex = y;
+            }
+        }
+
+        return this.cargoDistances.get(cargoIndex).cargo;
+
+    }
+
     @Override
     public String toString() {
         String s = "\r\n" + "Order ID : " + this.id + "\r\n";
         s += "GEO : " + this.lat + "," + this.lng + "\r\n";
         return s;
+    }
+
+    public String generateMap() {
+        String s = "";
+        s += this.lat + "," + this.lng + " {" + "OrderID=" + this.id + "}";
+        return s;
+
     }
 }
