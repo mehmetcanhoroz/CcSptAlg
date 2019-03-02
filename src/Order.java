@@ -15,6 +15,16 @@ public class Order extends Helpers {
 		this.lng = lng;
 	}
 
+	public Order(int id, double lat, double lng, ArrayList<Cargo> c) {
+		super();
+		this.id = id;
+		this.lat = lat;
+		this.lng = lng;
+		this.cargos = c;
+
+		this.calculateAllCargoDistance();
+	}
+
 	public double lat;
 	public double lng;
 	public int id;
